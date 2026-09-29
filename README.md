@@ -9,3 +9,12 @@ Who (Siapa pembuatnya?): Awalnya diciptakan oleh Rod Johnson pada tahun 2002 dal
 When (Kapan dibuat/dirilis?): Versi pertama (1.0) dirilis pada bulan Maret tahun 2004.
 
 Where (Di mana Spring digunakan?): Spring digunakan di sisi Backend (server-side) oleh banyak perusahaan besar dunia (seperti Netflix, Amazon, dll) untuk membuat REST API, aplikasi web MVC, pengolahan keamanan (Spring Security), hingga akses database (Spring Data).
+
+Tampilan John Travolta:
+<img width="533" height="269" alt="image" src="https://github.com/user-attachments/assets/52c21008-9ea8-45c4-ae3d-b89198bc6804" />
+<img width="443" height="235" alt="image" src="https://github.com/user-attachments/assets/37b9903f-5bc0-4dde-8ff9-511f9d4b6e19" />
+
+
+Tampilan Penyelesaian Persamaan Kuadrat:
+<img width="685" height="269" alt="image" src="https://github.com/user-attachments/assets/07f28220-1e0a-48a4-a676-399472cc3229" />
+<img width="342" height="349" alt="Cuplikan layar 2026-09-29 121132" src="https://github.com/user-attachments/assets/21159dfe-f8fe-41e8-839a-8286cdea548e" />
