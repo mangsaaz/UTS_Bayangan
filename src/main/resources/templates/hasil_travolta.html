@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Hasil Perhitungan</title></head>
+<body>
+    <h2>Laporan Keuangan Mingguan</h2>
+    <ul>
+        <!-- th:text digunakan untuk memanggil data dari Controller -->
+        <li><b>Total Gaji Didapat:</b> Rp <span th:text="${gajiTotal}"></span></li>
+        <li><b>Total Pengeluaran:</b> Rp <span th:text="${pengeluaran}"></span></li>
+    </ul>
+    <h3>Status: <span th:text="${status}"></span></h3>
+    
+    <!-- Bagian ini hanya muncul jika statusnya "Bisa menabung" -->
+    <p th:if="${status == 'Bisa menabung'}">
+        Jumlah yang ditabung minggu ini: <b>Rp <span th:text="${tabungan}"></span></b>
+    </p>
+    
+    <br><a href="/travolta">Hitung Ulang</a>
+</body>
+</html>

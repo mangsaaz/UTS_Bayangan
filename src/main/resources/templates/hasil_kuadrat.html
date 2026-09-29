@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Hasil Persamaan Kuadrat</title></head>
+<body>
+    <h2>Hasil Perhitungan</h2>
+    
+    <p style="color:red;" th:if="${error != null}" th:text="${error}"></p>
+    
+    <div th:if="${error == null}">
+        <p>Persamaan: <span th:text="${a}"></span>x² + <span th:text="${b}"></span>x + <span th:text="${c}"></span> = 0</p>
+        <p>Diskriminan (D): <span th:text="${d}"></span></p>
+        <p>Jenis Akar: <b th:text="${jenis}"></b></p>
+        
+        <ul th:if="${x1 != null}">
+            <li>x1 = <span th:text="${x1}"></span></li>
+            <li th:if="${x2 != null}">x2 = <span th:text="${x2}"></span></li>
+        </ul>
+    </div>
+    
+    <br><a href="/kuadrat">Hitung Persamaan Lain</a>
+</body>
+</html>
